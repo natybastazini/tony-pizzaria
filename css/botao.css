@@ -1,0 +1,25 @@
+.botao{
+    width: 300px;
+    height: 55px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 8px;
+    color: var(--cor-principal);
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-branco{
+    background-color: #fff;
+}
+
+.botao-verde{
+    background-color: #199570;
+}
+
+.botao-vermelho{
+    background-color: #F93030;
+}
