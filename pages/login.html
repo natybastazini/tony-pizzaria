@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/root.css">
-    <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/botao.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,21 +23,23 @@
         </div>
         <div class="logar-container">
             <div class="email">
-                <input placeholder="Seu e-mail aqui">
-                <img src="../img/email.png" alt="email">
+                <input id="email" placeholder="Seu e-mail aqui">
             </div>
             <div class="lock">
-                <input placeholder="Sua senha" alt="lock">
-                <img src="../img/lock.webp" alt="lock">
+                <input id="lock" placeholder="Sua senha" alt="lock">    
             </div>
         </div>
-        <a href="./pages/login.html" class="botao botao-branco ">ENTRAR</a>
-        <p>Esqueci a senha</p>
+        <div class="botao-entrar">
+            <a href="./pages/login.html" class="botao botao-branco ">ENTRAR</a>
+        </div>
+        <div class="esqueci-senha">
+            <p>Esqueci a senha</p>
+        </div>
     </main>
     <footer>
-        <div class="criar-conta">
+        <div class="criar-conta-container">
             <p>Ainda não tem uma conta?</p>
-            <h2>Criar conta</h2>
+            <h2><a href="./cadastro.html">Criar conta</a></h2>
         </div>
     </footer>
 </body>

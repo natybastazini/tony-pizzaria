@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-image: url(../img/pizza-cadastro.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+header::after{
+    position: absolute;
+    content: "";
+    display: block;
+    background: linear-gradient(360deg, #fff0 0%, var(--cor-principal) 100%);
+    inset: 0;
+    z-index: -1;
+}
+
+.perfil h1{
+    color: #fff;
+    padding-top: 7px;
+}
+
+.perfil{
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.perfil img{
+    padding-top: 12px;
+    height: 4.8vh;
+}
+
+.foto{
+    
+}

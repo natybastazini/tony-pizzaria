@@ -40,9 +40,60 @@ p{
     color: #fff;
 }
 
-input{
-    background: transparent;
-    border: none;
+input::placeholder{
     color: #fff;
-
 }
+
+input {
+    border: none;
+    background: transparent;
+    width: 300px;
+    height: 26px;
+    outline: none;
+    border-bottom: solid 1px white;
+    padding-left: 30px;
+}
+
+#email{
+    background-image: url(../img/email.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#lock{
+    background-image: url(../img/lock.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.logar-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 18vh;
+}
+
+.logar-container img{
+    width: 3.2vh;
+    height: 3.2vh;
+}
+
+.botao-entrar{
+    display: flex;
+    justify-content: center;
+}
+
+.esqueci-senha {
+    padding-left: 196px;
+}
+
+.criar-conta-container{
+    text-align: center;
+}
+
+.criar-conta-container h2{
+    color: white;
+    text-shadow: 1px 2px 2px black;
+}
+
