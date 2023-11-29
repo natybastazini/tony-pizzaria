@@ -1,0 +1,129 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(180deg, rgba(252,121,0,0.5902777777777778) 30%, rgba(252,121,0,0) 100%);
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    inset: 0;
+    z-index: -1;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalho{
+    color: #fff;
+}
+
+.cabecalho h1, p{
+    padding-right: 4rem;
+    color: #fff;
+}
+
+.barraPesquisa{
+    height: 3.2rem;
+    width: 90%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.barraPesquisa input{
+    border: 0 solid transparent;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    
+}
+
+input::placeholder{
+    font-size: 12.4px;
+    color: var(--);
+    padding-left: 10px;
+}
+
+#pesquisa{
+    background-image: url(../img/home/logo-lupa.webp);
+    background-repeat: no-repeat;
+    background-position: calc(290px - 30px);
+    background-size: 24px;
+
+}
+
+/* Carrosel de categorias */
+
+.categorias h4{
+    color: #fff;
+    /* box-shadow: 2px 4px 6px; */
+}
+
+.preco{
+    width:  60px;
+    height: 18px;
+    background-color: var();
+    position: absolute;
+    top:14.5rem;
+    left: 1.5rem;
+    font-size: 10px;
+    padding: 4px 4px;
+    border-radius: 8px;
+    color: var(--);
+   
+}
+
+.descricao{
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.507);
+    top: 16rem;
+    position: absolute;
+    font-size: 12px;
+    padding: 4px 4px;
+    left: 1.5rem;
+    border-radius: 2px 6px 8px;
+    color: var(--);
+}
+
+/* 
+
+
+.recomendadas{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+    "f1 f2 f3";
+    gap: 12px;
+}
+
+.recomendadas:nth-child(1){
+    background-image: url(../img/home/pizza-calabresa.webp);
+}
+
+.recomendadas:nth-child(2){
+    background-image: url(../img/home/pizza-peperoni.webp);
+} */
+
+
+
+
+
+
+
+

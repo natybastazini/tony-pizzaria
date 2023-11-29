@@ -1,7 +1,13 @@
 :root{
     --cor-principal: #F27706;
-}
-
-:root{
     --cor-botao-vermelho: #F93030;
+    --cor-botao-verde: #199570;
+    --cor-texto-verde: #23CB98;
+    /* cinza para todas as info. do comentário e na tela de perfil na cidade */
+    --cinza: #AEA6A6;
+    /* cinza comentario */
+    --cinza-texto: #999999;
+    /* cinza do bloco do comentário */
+    --cinza-bloco: #F5F5F5;
+    --cinza-usuario: #C4C4C4;
 }

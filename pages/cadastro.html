@@ -10,23 +10,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-    <title>Tony Pizzaria</title>
+    <title>Tony Pizzaria Cadastro</title>
 </head>
 <body>
-    <header> 
-        <div class="perfil">
-            <img src="../img/vector.webp" alt="vector">
+    <header>
+        <div class="voltar" id="voltar">
+            <a href="../pages/login.html" >
+                <img src="../img/vector.webp" alt="voltar" >    
+            </a>
             <h1>Criar conta</h1>
-        </div>
-        <div class="person">
-            <img src="../img/person.webp" alt="person">
-        </div>
-        <div class="foto">
-            <img src="../img/add-photo.webp" alt="foto">
         </div>
     </header>
     <main>
+        <form>
+            <!-- / ******************** FOTO DE PERFIL DO USUÁRIO ********************/ -->
+            <div id="perfil">
+                <img src="../img/person.webp" alt="person">
+                <label for="foto-perfil" id="botao-foto"> <img src="../img/add-photo.webp" alt="add-photo"> </label>
+                <input id="foto-perfil" type="file">
+            </div>
 
+            <!-- /******************** CADASTRO ********************/ -->
+            <div>
+                <label for="name">Nome do Usuário</label>
+                <input type="text" id="nome">
+            </div>
+            <div>
+                <label for="email">Endereço de e-mail</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" id="senha">
+            </div>
+            <div>
+                <label for="senha">Confirmação de Senha</label>
+                <input type="password" id="confirmacao-senha">
+            </div>
+            <div>
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone">
+            </div>
+
+            <!-- /******************** BOTAO CRIAR CONTA ********************/ -->
+            <button class="botao botao-verde" id="botao-criar-conta">Criar Conta</button>
+        </form>  
     </main>
 </body>
 </html>

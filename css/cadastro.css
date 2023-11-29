@@ -1,14 +1,21 @@
 body{
     height: 100vh;
     font-family: 'Roboto', sans-serif;
-   background-image: url(../img/pizza-cadastro.webp);
+    background-image: url(../img/pizza-cadastro.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
+    display: grid;
+    grid-template-rows: 10vh 1fr;
+    height: 100vh;
 }
 
 header{
-    padd
+    padding: 5vh 1.5rem 0 1.5rem;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: start;
+    z-index: 1;
 }
 
 header::after{
@@ -20,45 +27,79 @@ header::after{
     z-index: -1;
 }
 
-.perfil h1{
-    color: #fff;
-    padding-top: 7px;
-}
-
-.perfil{
+#voltar{
     display: flex;
-    gap: 10px;
-    font-size: 12px;
-    padding: 10px;
+    gap: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.125rem;
+    padding-bottom: 0.75rem;
+    width: fit-content;
+}  
+
+main{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 1.5rem 2rem 1.5rem;
+    border-radius: 2rem 2rem 0 0;
+    background-color: #fff;
+    margin-top: calc(15vh + 1.5rem);
 }
 
-.perfil img{
-    padding-top: 12px;
-    height: 4.8vh;
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.person{
-    padding-top: 20px;
-    padding-left: 140px;
-}
-
-.person img{
-    height: 6rem;
-    width: 6rem;
+#perfil{
+    width: 15vh;
+    height: 15vh;
     padding: 12px;
-    background-color: #C4C4C4;
+    position: relative;
+    background-color: var(--cinza-usuario);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateY(calc(-100% - 1.5rem));
+    margin-bottom: calc(-15vh - 1rem);
 }
 
-.foto{
-    padding-left: 200px;
+#perfil img{
+    width: 70%;
+    height: 70%;
 }
 
-.foto img{
-    height: 2.8rem;
-    width: 2.8rem;
-    padding: 12px;
-    background-color: var(--cor-botao-vermelho);
+#perfil label{
+    position: absolute;
+    background-color: #F93030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
+    padding: 0.3rem;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
 }
 
+#perfil label img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#perfil input{
+    display: none;
+}
+
+#botao-criar-conta {
+    color: #fff;
+}
