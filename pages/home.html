@@ -13,39 +13,188 @@
     <title>Tony Pizzaria Home</title>
 </head>
 <body>
+    <header>
+        <div class="cabecalho">
+            <h2>Home</h2>
+            <h3>Bom dia, Celso</h3>
+        </div>
+        <a href="../pages/perfil.html"><img src="../img/home/foto-home.webp" alt="foto-home"></a>
+       </header>
+    <main>
+        <section class="categorias">
+            <h3>Categorias</h3>
+            <ul class="foods">
+                <li>
+                    <button class="categoria">
+                        <img src="../img/home/logo-pizza.webp" alt="logo-pizza">
+                    </button>
+                </li>
+                <li>
+                    <button class="categoria">
+                        <img src="../img/home/logo-bebida.webp" alt="logo-bebida">
+                    </button>
+                </li>
+                <li>
+                    <button class="categoria">
+                        <img src="../img/home/logo-melancia.webp" alt="logo-fruta">
+                    </button>
+                </li>
+                <li>
+                    <button class="categoria">
+                        <img src="../img/home/logo-pedaco-pizza.webp" alt="logo-pedaco-pizza">
+                    </button>
+                </li>
+                <li>
+                    <button class="categoria">
+                        <img src="../img/home/logo-sobremesa.webp" alt="logo-sobremesa">
+                    </button>
+                </li>
+                <li>
+                    <button class="categoria">
+                        <img src="../img/home/logo-sorvete.webp" alt="logo-sorvete">
+                    </button>
+                </li>
+               
+            </ul>
+        </section>
+
+        <section class="pizzas">
+            <h3>Minhas pizzas favoritas</h3>
+            <div class="pizzas-fav">
+                <button class="pizza" id="pizza1">
+                    <a href="">
+                        <span class="preco">R$ 16,00</span>
+                        <p class="nome">Pizza de calabreza com queijo</p>
+                    </a>
+                </button>
+                <button class="pizza" id="pizza2">
+                    <a href="">
+                        <span class="preco">R$ 19,00</span>
+                        <p class="nome">Pizza de peperoni com queijo</p>
+                    </a>
+                </button>
+                <button class="pizza" id="pizza3">
+                    <a href="">
+                        <span class="preco">R$ 16,00</span>
+                        <p class="nome">Pizza de calabreza com queijo</p>
+                    </a>
+                </button>    
+            </div>
+        </section>
+        <section class="recomendacao">
+            <h3>Recomendados para você</h3>
+            <div class="pizzas-recomend">
+                <button class="pizza" id="pizza4">
+                    <a href="./pizza-info.html">
+                        <p class="nome">Pizza de peperoni com queijo e tomate</p>
+                    </a>
+                </button>
+                <button class="pizza" id="pizza5">
+                    <a href="">
+                        <span class="preco">R$ 12,00</span>
+                        <p class="nome">Pizza brotinho com queijo e tomate</p>
+                    </a>
+                </button> 
+            </div>
+        </section>
+        
+        <section class="drinks">
+            <h3>Bebidas</h3>
+            <div class="container-drinks">
+                <button class="bebida">
+                    <a href="">
+                        <div class="bebidas">
+                            <img src="../img/home/coca.webp" id="coca">
+                            <div class="bebidas-info">
+                                <span class="nome-bebidas">Coca-Cola</span>
+                                <ul class="desc-bebidas">
+                                    <li>Refrigerante Garrafa 3l</li>
+                                    <li>Embalagem Econômica</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <span class="preco">R$ 14,99</span>
+                    </a>
+                </button>
+                <button class="bebida">
+                    <a href="">
+                        <div class="bebidas">
+                            <img src="../img/home/heineken.webp" id="coca">
+                            <div class="bebidas-info">
+                                <span class="nome-bebidas">Cerveja Heineken</span>
+                                <ul class="desc-bebidas">
+                                    <li>Refrigerante Garrafa 3l</li>
+                                    <li>Embalagem Econômica</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <span class="preco">R$ 17,99</span>
+                    </a>
+                </button>
+        </section>
+    </main>
+
+    <footer>
+        <button class="profile">
+            <a href="">
+                <img src="../img/home/Vector.svg">
+                <span>Meu Perfil</span>
+            </a>
+        </button>
+        <button class="drinks">
+            <a href="">
+                <img src="../img/home/logo-cerveja.webp" alt="">
+                <span>Bebidas</span>
+            </a>
+        </button>
+        <button class="desert">
+            <a href="">
+                <img src="../img/home/Kawaii Cupcake.svg" alt="">
+                <span>Sobremesas</span>
+            </a>
+        </button>
+    </footer>
+</body>
+
+<!-- <body>
    <header>
     <div class="cabecalho">
         <h2>Home</h2>
         <h3>Bom dia, Celso</h3>
     </div>
-    <img src="../img/home/foto-home.webp" alt="foto-home">
+    <a href="../pages/perfil.html"><img src="../img/home/foto-home.webp" alt="foto-home"></a>
    </header>
 
    <main>
         <div class="barraPesquisa">
             <input type="text" id="pesquisa" placeholder="Buscar algo para matar a minha fome">
         </div> 
-        <div class="categorias">
+        <div class="menuCategorias">
+
             <h4>Categorias</h4>
-            <a href="">
-                <img src="../img/home/logo-pizza.webp" alt="logo-pizza">
-            </a>
-            <a href="">
-                <img src="../img/home/logo-bebida.webp" alt="logo-beebida">
-            </a>
-            <a href="">
-                <img src="../img/home/logo-melancia.webp" alt="logo-fruta">
-            </a>
-            <a href="">
-                <img src="../img/home/logo-pedaco-pizza.webp" alt="logo-pedaco-pizza">
-            </a>
-            <a href="">
-                <img src="../img/home/logo-sorvete.webp" alt="logo-sorvete">
-            </a>
-            <a href=""><img src="../img/home/logo-sobremesa.webp" alt="logo-sobremesa">
-            </a>
+
+            <div class="card-categorias">
+                <button class="categorias">
+                    <img src="../img/home/logo-pizza.webp" alt="logo-pizza">
+                </button>
+                <button class="categorias">
+                    <img src="../img/home/logo-bebida.webp" alt="logo-beebida">
+                </button>
+                <button class="categorias">
+                    <img src="../img/home/logo-melancia.webp" alt="logo-fruta">
+                </button>
+                <button class="categorias">
+                    <img src="../img/home/logo-pedaco-pizza.webp" alt="logo-pedaco-pizza">
+                </button>
+                <button class="categorias">
+                    <img src="../img/home/logo-sorvete.webp" alt="logo-sorvete">
+                </button>
+                <button class="categorias">
+                    <img src="../img/home/logo-sobremesa.webp" alt="logo-sobremesa">
+                </button>
+            </div>
         </div>
-    
+        
         <h4>Minhas pizzas favoritas</h4>
         <div class="favoritas">
                 
@@ -57,39 +206,21 @@
                     <span class="descricao"><a href=""> Pizza de calabresa com queijo</a></span>
                 </div>
 
-                <!-- <div class="card-peperoni">
+                <div class="card-peperoni">
                     <a href="">
                         <img src="../img/home/pizza-peperoni.webp" alt="peperoni">
                     </a>
                     <span class="preco">R$ 19,00</span>
                     <span class="descricao"><a href="">Pizza de peperoni com queijo</a></span>
-                </div> -->
-
-                <!-- <div class="pizzaFavCard">
-                    <span class="pizzaFavCard">    
-                        <a href="">
-                            <img src="../img/home/pizza-calabresa.webp" alt="calabresa">
-                        </a>
-                    </span>
-                    <span class="preco">R$ 16,00</span>
-                    <span class="descricao-calabresa"><a href=""> Pizza de calabresa com queijo</a></span>
-                </div> -->
+                </div>  
         </div>
         <h4>Recomendados para você</h4>
-        <!-- <div class="recomendadas">
-                <div class="card-peperoni-recomendada">
-                    <span class="fotoPizza">    
-                        <a href="">
-                            <img src="../img/home/pizza-peperoni-recomendada.webp" alt="peperoni-recomendada"> 
-                        </a>
-                    </span>
-                </div>
-        </div> -->
+        
         <h4>Bebidas</h4>
         <div class="bebidas">
 
         </div>
-        </div>
+        
     </main>
-</body>
+</body> -->
 </html>
