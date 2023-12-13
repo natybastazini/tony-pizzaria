@@ -32,10 +32,20 @@ header::after{
     gap: 1.5rem;
     color: #fff;
     font-weight: 700;
-    font-size: 1.125rem;
     padding-bottom: 0.75rem;
     width: fit-content;
-}  
+}
+
+#voltar a{
+    display: flex;
+    width: fit-content;
+    gap: 6px;
+    font-size: 0.68rem;
+}
+
+#voltar a img{
+    width: 12px;
+}
 
 main{
     position: relative;
