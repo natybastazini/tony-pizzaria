@@ -136,6 +136,23 @@ main{
     gap: 0.75rem;
 }
 
+.categorias h3{
+    color: #fff;
+}
+
+.pizzas h3{
+    color: #fff;
+}
+
+.recomendacao h3{
+    color: #fff;
+}
+
+.drinks h3{
+    color: #fff;
+}
+
+
 .foods{
     width: calc(100vw - 2.5rem);
     overflow-x: scroll;
